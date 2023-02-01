@@ -3,7 +3,7 @@ The lecture videos in Udvash Master Course are actually unlisted YouTube video t
 
 ## How this works
 1. `courses.py` scrapps all the lecture links found in the Course and store them in a `.txt` file named "lecture_links.txt". And also prints the number of lectures found. You need cookies here.
-2. 'get_yt.py` automates your browser (in this case, "FireFox") and scrapps the embed links and Store them in "fresh_links.txt"
+2. `get_yt.py` automates your browser (in this case, "FireFox") and scrapps the embed links and Store them in "fresh_links.txt"
 3. `open_yt.py` opens all the links in your default browser, 50 at a time, press any key on terminal to open next 50. Because Your PC may struggle to handle this many of links.
 
 ## Requirements:
